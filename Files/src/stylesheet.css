@@ -1,0 +1,133 @@
+.canvas{
+    background-color: #1A1B21;
+    width: 320px;
+    margin: auto;
+    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+body{
+    background-color: #383737; 
+}
+
+h1, h3, p{
+    color: #46a32a;
+}
+
+
+info{
+   text-align: center;
+   margin: auto;
+   border-radius: 25px;
+   width: "300px";
+   height: auto;
+   
+   padding-bottom: 50px;
+   
+}
+info > h2{
+    color:#b61702;
+    font-size: 25px;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+footer{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    height: 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+about{
+    text-align: center;
+    margin: auto;
+    height: auto;
+    width:320px;
+      
+}
+.about-box {
+    text-align: left;
+}
+interests{
+    
+    text-align: center;
+    margin: auto;   
+    height: auto;
+}
+interests > p{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+interests > h1{
+    font-size: 21px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+about > h1{
+    font-size: 21px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+about > p{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+info > {
+    text-align: center;
+}
+
+
+.carousel{
+    width: 275px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.carousel--h3, .carousel--p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.info{
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column;
+
+}
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+
+section{
+    padding-top: 40px;
+}
+footer{
+    margin-top: 20px;
+}
