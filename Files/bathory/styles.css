@@ -1,0 +1,178 @@
+@font-face{
+    font-family: "chomsky";
+    src: url("chomsky.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --black: rgb(33, 31, 31);
+    --font-white:linen;
+  }
+  *{
+    margin: 0;
+    text-decoration: none;
+  }
+  #main-title{
+    font-family: "chomsky", sans-serif;
+    font-size: 115px;
+    letter-spacing: 5px;
+  }
+  #header{
+    position:fixed;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row;
+    background-color: var(--black);
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+  }
+  #header-img{
+    padding-left: 20px;
+    width: 100px;
+  }
+  
+  #form > h1{
+    padding-top: 250px;
+  }
+  #nav-bar{
+    padding-right: 50px;
+  }
+  body{
+    background-color:rgb(140, 123, 109);
+  }
+  
+  h1{
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  
+  form > h2{
+    padding-bottom: 50px;
+  }
+  h3 {
+    padding-bottom: 50px;
+  }
+  #header-img{
+    height:100%;
+  }
+  
+  #nav-bar{
+    width: 35vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;}
+  
+  .nav-link{
+    
+    color: var(--font-white);
+    font-weight: 900;
+  }
+  
+  form, .video, .facts, .album-covers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  
+  #email{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 45px;
+  }
+  #submit{
+    width: 100px;
+    height: 50px;
+  }
+  .main{
+    padding-top: 200px;
+  }
+  #email{
+    width: 40%;
+    text-align:center;
+    min-width: 300px;
+  }
+  
+  ul{
+    padding-top: 50px;
+  }
+  #somefacts{
+    text-align: left;
+    font-weight: 700;
+    line-height: 350%;
+  }
+  .facts > h1{
+    padding-bottom: 45px;
+  }
+  .album-gallery{
+    flex-direction: row;
+    display: flex;
+    
+  }
+  
+  .album-covers{
+   
+    height: 250px;
+    width: 250px;
+  }
+  
+  #legacy > h1{
+    padding-bottom: 100px;
+  }
+  
+  footer{
+    background-color: var(--black);
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: left;
+    display:flex;
+    height: 75px;
+  }
+  .album-body{
+    padding: 12px 10px 12px 10px ;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color:var(--black);
+    
+    border-radius: 10px;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .album-comment{
+    text-align: left;
+    padding-top: 12px;
+    
+  }
+  .album-comment{
+    color: rgb(165, 129, 99);
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
