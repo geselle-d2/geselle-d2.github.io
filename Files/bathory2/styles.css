@@ -140,6 +140,8 @@
     display: flex;
     flex-wrap: wrap;
     row-gap: 40px;
+    max-width: 75%;
+    justify-content: space-evenly;
   }
   
   .album-covers{
